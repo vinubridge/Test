@@ -1,0 +1,600 @@
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-BoldItalic.eot");
+  src: url("../fonts/HKGrotesk-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-BoldItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Black.eot");
+  src: url("../fonts/HKGrotesk-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Black.woff2") format("woff2"), url("../fonts/HKGrotesk-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Bold.eot");
+  src: url("../fonts/HKGrotesk-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Bold.woff2") format("woff2"), url("../fonts/HKGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Light.eot");
+  src: url("../fonts/HKGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Light.woff2") format("woff2"), url("../fonts/HKGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-ExtraBold.eot");
+  src: url("../fonts/HKGrotesk-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-ExtraBold.woff2") format("woff2"), url("../fonts/HKGrotesk-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Italic.eot");
+  src: url("../fonts/HKGrotesk-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Italic.woff2") format("woff2"), url("../fonts/HKGrotesk-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Legacy";
+  src: url("../fonts/HKGrotesk-BoldLegacyItalic.eot");
+  src: url("../fonts/HKGrotesk-BoldLegacyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-BoldLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldLegacyItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Legacy";
+  src: url("../fonts/HKGrotesk-LegacyItalic.eot");
+  src: url("HKGrotesk-LegacyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-LegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LegacyItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Legacy";
+  src: url("../fonts/HKGrotesk-BoldLegacy.eot");
+  src: url("../fonts/HKGrotesk-BoldLegacy.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-BoldLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-BoldLegacy.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-LightItalic.eot");
+  src: url("../fonts/HKGrotesk-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-LightItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Medium.eot");
+  src: url("../fonts/HKGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Medium.woff2") format("woff2"), url("../fonts/HKGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Light Legacy";
+  src: url("../fonts/HKGrotesk-LightLegacyItalic.eot");
+  src: url("../fonts/HKGrotesk-LightLegacyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-LightLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-LightLegacyItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Medium Legacy";
+  src: url("../fonts/HKGrotesk-MediumLegacy.eot");
+  src: url("../fonts/HKGrotesk-MediumLegacy.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-MediumLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumLegacy.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Medium Legacy";
+  src: url("../fonts/HKGrotesk-MediumLegacyItalic.eot");
+  src: url("../fonts/HKGrotesk-MediumLegacyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-MediumLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumLegacyItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-MediumItalic.eot");
+  src: url("../fonts/HKGrotesk-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-MediumItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Light Legacy";
+  src: url("../fonts/../fonts/HKGrotesk-LightLegacy.eot");
+  src: url("../fonts/HKGrotesk-LightLegacy.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-LightLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-LightLegacy.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-SemiBold.eot");
+  src: url("../fonts/HKGrotesk-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-SemiBold.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk SemiBold Legacy";
+  src: url("../fonts/HKGrotesk-SemiBoldLegacy.eot");
+  src: url("../fonts/HKGrotesk-SemiBoldLegacy.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-SemiBoldLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldLegacy.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-SemiBoldItalic.eot");
+  src: url("../fonts/HKGrotesk-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-SemiBoldItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk";
+  src: url("../fonts/HKGrotesk-Regular.eot");
+  src: url("../fonts/HKGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-Regular.woff2") format("woff2"), url("../fonts/HKGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk SmBold Legacy";
+  src: url("../fonts/HKGrotesk-SemiBoldLegacyItalic.eot");
+  src: url("../fonts/HKGrotesk-SemiBoldLegacyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-SemiBoldLegacyItalic.woff2") format("woff2"), url("../fonts/HKGrotesk-SemiBoldLegacyItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HK Grotesk Legacy";
+  src: url("../fonts/HKGrotesk-RegularLegacy.eot");
+  src: url("../fonts/HKGrotesk-RegularLegacy.eot?#iefix") format("embedded-opentype"), url("../fonts/HKGrotesk-RegularLegacy.woff2") format("woff2"), url("../fonts/HKGrotesk-RegularLegacy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "HK Grotesk";
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img.responsive {
+  max-width: 100%;
+}
+
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.pr-0 {
+  padding-right: 0px !important;
+}
+
+.pb-0 {
+  padding-bottom: 0px !important;
+}
+
+.pt-0 {
+  padding-top: 0px !important;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+header .header_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+header .header_section .header_left {
+  display: flex;
+  align-items: center;
+}
+header .header_section .header_left .logo {
+  margin-top: -8px;
+}
+header .header_section .header_left nav {
+  margin-left: 80px;
+}
+header .header_section .header_left nav .navbar-nav .nav-item a {
+  color: #fff;
+}
+header .header_section .header_right {
+  display: flex;
+  align-items: center;
+}
+header .header_section .header_right .language button {
+  padding: 0;
+  border: none;
+  background: no-repeat;
+  display: flex;
+}
+header .header_section .header_right .login a {
+  color: #fff;
+  background: #030F3F;
+  border: #2B83EA solid 1px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 9px 20px;
+  margin: 0 16px 0 24px;
+}
+header .header_section .header_right .sign_up a {
+  color: #528FF0;
+  background: #fff;
+  border: #EDEDED solid 1px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 9px 20px;
+}
+
+.banner_section {
+  width: 100%;
+  background: #03062F;
+  position: relative;
+}
+.banner_section::after {
+  width: 100%;
+  height: 150px;
+  content: "";
+  bottom: -144px;
+  position: absolute;
+  left: 0;
+  background-image: url("../images/banner-bg-img.png");
+  background-size: cover;
+}
+.banner_section .banner {
+  display: flex;
+  align-items: center;
+  height: 750px;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.banner_section .banner .banner_left {
+  width: 40%;
+}
+.banner_section .banner .banner_left h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 53px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.banner_section .banner .banner_left h1::after {
+  width: 24px;
+  height: 4px;
+  background: #58C19C;
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+}
+.banner_section .banner .banner_left p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.banner_section .banner .banner_left a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  padding: 12px 20px;
+  background: #2783F3;
+  border-radius: 2px;
+}
+
+.product_section {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.product_section .product {
+  padding-top: 270px;
+  background-image: url("../images/product_bg.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.product_section .product .product_details h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #222323;
+}
+.product_section .product .product_details p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4F5659;
+  line-height: 30px;
+}
+.product_section .product .product_details .reviews {
+  margin-top: 36px;
+  display: flex;
+  align-items: baseline;
+}
+.product_section .product .product_details .reviews .stars {
+  display: flex;
+  margin-right: 5.5px;
+}
+.product_section .product .product_details .reviews span {
+  font-size: 16px;
+  color: #202324;
+  font-weight: 400;
+}
+.product_section .product .product_details .colors {
+  margin-top: 45px;
+}
+.product_section .product .product_details .colors h5 {
+  font-size: 12px;
+  color: #939C9F;
+  font-weight: 600;
+}
+.product_section .product .product_details .colors .color_block_container {
+  display: flex;
+  margin-left: -4px;
+  margin-right: -4px;
+  flex-wrap: wrap;
+}
+.product_section .product .product_details .colors .color_block_container button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block {
+  width: 124px;
+  height: 60px;
+  border: #D8E0E2 solid 1px;
+  border-radius: 6px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block:hover {
+  border: #202324 solid 2px;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block:hover .text {
+  font-weight: 600;
+  color: #202324;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block .strip {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block .strip.new {
+  background-color: #DE742D;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block .strip.limited {
+  background-color: #A07EDC;
+}
+.product_section .product .product_details .colors .color_block_container button.color_block .text {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  color: #545C5F;
+}
+.product_section .product .product_details .quantity {
+  margin-top: 16px;
+}
+.product_section .product .product_details .quantity h5 {
+  font-size: 12px;
+  color: #939C9F;
+  font-weight: 600;
+}
+.product_section .product .product_details .quantity .quantity-counter {
+  width: 40px;
+  height: 48px;
+  display: initial;
+}
+.product_section .product .product_details .quantity .quantity-counter .value {
+  width: 40px;
+  height: 48px;
+  border: none;
+  border-radius: 3px;
+  margin: 2px 0;
+  padding: 4px;
+  text-align: center;
+  color: #34393A;
+  font-size: 16px;
+  font-weight: 600;
+  -moz-appearance: textfield;
+}
+.product_section .product .product_details .quantity .quantity-counter .value::-webkit-outer-spin-button, .product_section .product .product_details .quantity .quantity-counter .value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product_section .product .product_details .quantity .quantity-counter .increment,
+.product_section .product .product_details .quantity .quantity-counter .decrement {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #EDF1F2;
+  color: #8CA4AB;
+  width: 40px;
+  height: 48px;
+}
+.product_section .product .product_details .price {
+  margin-top: 34px;
+}
+.product_section .product .product_details .price [type=radio]:checked,
+.product_section .product .product_details .price [type=radio]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.product_section .product .product_details .price [type=radio]:checked + label,
+.product_section .product .product_details .price [type=radio]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+.product_section .product .product_details .price [type=radio]:checked + label:before,
+.product_section .product .product_details .price [type=radio]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #D6DFE1;
+  border-radius: 100%;
+  background: #fff;
+}
+.product_section .product .product_details .price [type=radio]:checked + label:before {
+  border: 2px solid #00BA74;
+}
+.product_section .product .product_details .price [type=radio]:checked + label:after,
+.product_section .product .product_details .price [type=radio]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #00BA74;
+  border: #00BA74 solid 2px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.product_section .product .product_details .price [type=radio]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.product_section .product .product_details .price [type=radio]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.product_section .product .product_details .price h4 {
+  color: #202324;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.product_section .product .product_details .price h4 span {
+  color: #00BA74;
+}
+.product_section .product .product_details .price p {
+  color: #202324;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.product_section .product .product_details .price p span {
+  color: #000000;
+  background-color: #B1FBE3;
+  padding: 0 5px;
+  border-radius: 8px;
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 700;
+}
+.product_section .product .product_details .price p span2 {
+  font-weight: 700;
+}
+.product_section .product .product_details .add_bag a {
+  background-color: #00BA74;
+  color: #fff;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.product_section .product .product_details .add_bag a svg {
+  margin-right: 15px;
+}
+.product_section .product .product_details .list {
+  margin-top: 27px;
+}
+.product_section .product .product_details .list ul li {
+  background-image: url("../images/list-style.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  margin-top: 10px;
+  background-position: 0px 2px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34393A;
+}
+.product_section .product .product_details .delivery {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  color: #545C5F;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product_section .product .product_details .delivery svg {
+  margin-right: 8px;
+}
+.product_section .product .product_details .delivery a {
+  text-decoration: underline !important;
+  font-weight: 600;
+  color: #545C5F;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

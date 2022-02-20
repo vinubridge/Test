@@ -1,0 +1,34 @@
+body{
+    font-family: $primary_font;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img.responsive{
+    max-width: 100%;
+}
+
+.pl-0{
+    padding-left: 0px !important;
+}
+.pr-0{
+    padding-right: 0px !important;
+}
+.pb-0{
+    padding-bottom: 0px !important;
+}
+.pt-0{
+    padding-top: 0px !important;
+}
+
+
